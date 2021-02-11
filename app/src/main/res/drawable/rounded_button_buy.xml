@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@android:color/holo_blue_dark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mask_corner_rounded">
+
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/>
+            <corners android:topRightRadius="75dp" android:topLeftRadius="75dp" android:bottomRightRadius="75dp" android:bottomLeftRadius="75dp"/>
+        </shape>
+
+    </item>
+
+</ripple>

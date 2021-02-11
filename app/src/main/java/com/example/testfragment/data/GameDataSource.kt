@@ -21,7 +21,7 @@ class GameDataSource {
                            4.0f,
                            listOf(
                                     Console(1, "Playstation 4", "Sony", "1996-12-01"),
-                                    Console(2, "Playstation 1", "Sony", "1996-12-05")
+                                    Console(2, "Playstation 1", "Sony", "1996-12-05",)
                            )))
 
             games.add(Game(2,
