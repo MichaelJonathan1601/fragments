@@ -20,8 +20,8 @@ class GameDataSource {
                            "Mortal Kombat é uma série de jogos criados pelo estúdio de Chicago da Midway Games. Em 2011, depois da falência da Midway, a produção de Mortal Kombat foi adquirida pela Warner Bros, tornando-se em seguida na Netherealm.",
                            4.0f,
                            listOf(
-                                    Console(1, "Playstation 4", "Sony", "1996-12-01"),
-                                    Console(2, "Playstation 1", "Sony", "1996-12-05",)
+                                    Console(1, "Playstation 4", "Sony", "1996-12-01", context.getDrawable(R.drawable.ps5)!!, "dfgdfhgdfhgdf"),
+                                    Console(2, "Playstation 1", "Sony", "1996-12-05", context.getDrawable(R.drawable.ps5)!!, "sdgfdgfdgdfgf")
                            )))
 
             games.add(Game(2,
@@ -30,8 +30,8 @@ class GameDataSource {
                            "FIFA 19 é um jogo eletrônico de futebol desenvolvido publicado pela EA Sports, que foi lançado localmente em 28 de setembro de 2018.",
                            4.5f,
                            listOf(
-                                    Console(1, "Playstation 4", "Sony", "2018-09-28"),
-                                    Console(2, "Xbox 360", "Sony", "2018-10-06")
+                                    Console(1, "Playstation 4", "Sony", "2018-09-28", context.getDrawable(R.drawable.ps5)!!, "sdgfdgfdgdfgf"),
+                                    Console(2, "Xbox 360", "Sony", "2018-10-06", context.getDrawable(R.drawable.ps5)!!, "sdgfdgfdgdfgf")
                            )))
 
             games.add(Game(3,
@@ -40,8 +40,8 @@ class GameDataSource {
                            "Crash Bandicoot é uma série de jogos criada por Andy Gavin e Jason Rubin, fundadores da Naughty Dog. A série consiste basicamente nas aventuras do bandicoot geneticamente alterado Crash, que luta para impedir o planos do cientista do mal Neo Córtex e seus lacaios.",
                            4.5f,
                            listOf(
-                                    Console(1, "Playstation 4", "Sony", "1996-09-09"),
-                                    Console(2, "Xbox 360", "Sony", "1996-09-16")
+                                    Console(1, "Playstation 4", "Sony", "1996-09-09", context.getDrawable(R.drawable.ps5)!!, "sdgfdgfdgdfgf"),
+                                    Console(2, "Xbox 360", "Sony", "1996-09-16", context.getDrawable(R.drawable.ps5)!!, "sdgfdgfdgdfgf")
                            )))
 
             games.add(Game(4,
@@ -50,8 +50,8 @@ class GameDataSource {
                            "Assassin's Creed Odyssey é um jogo eletrônico de RPG de ação desenvolvido pela Ubisoft Quebec e publicado pela Ubisoft. É o décimo primeiro título principal da série Assassin's Creed.",
                            4.5f,
                            listOf(
-                                    Console(1, "Playstation 4", "Sony", "2018-10-05"),
-                                    Console(2, "Xbox One", "Sony", "2018-10-23")
+                                    Console(1, "Playstation 4", "Sony", "2018-10-05", context.getDrawable(R.drawable.ps5)!!, "sdgfdgfdgdfgf"),
+                                    Console(2, "Xbox One", "Sony", "2018-10-23", context.getDrawable(R.drawable.ps5)!!, "sdgfdgfdgdfgf")
                            )))
 
             return games

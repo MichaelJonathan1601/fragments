@@ -18,7 +18,7 @@ class ConsoleAdapter: RecyclerView.Adapter<ConsoleViewHolder>() {
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ConsoleViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.holder_game_layout, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.holder_console_layout, parent, false)
 
         return ConsoleViewHolder(view)
     }

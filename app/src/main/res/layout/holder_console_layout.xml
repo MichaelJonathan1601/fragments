@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,17 +18,18 @@
         <ImageView
             android:id="@+id/image_console"
             android:layout_width="match_parent"
-            android:layout_height="450dp"
-            android:src="@drawable/xboxOne"
+            android:layout_height="280dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/xbox_one"
             />
         
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="380dp"
         android:background="@drawable/rounded_text_view"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="280dp"
         android:orientation="horizontal">
 
         <TextView
@@ -53,8 +58,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="510dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
         android:orientation="vertical">
 
         <TextView
@@ -86,3 +91,5 @@
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
+
+</ScrollView>
